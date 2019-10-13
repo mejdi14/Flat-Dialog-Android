@@ -1,4 +1,4 @@
-package com.example.flat_dialog.dialog;
+package com.example.flatdialoglibrary.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -7,68 +7,67 @@ import android.view.Window;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.example.flat_dialog.R;
+import com.example.flatdialoglibrary.R;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
 
 public class FlatDialog extends Dialog {
     Context context;
-    @BindView(R.id.title)
     TextView title;
 
-    @BindView(R.id.subtitle)
     TextView subtitle;
 
-    @BindView(R.id.first_button)
     TextView first_button;
 
-    @BindView(R.id.second_button)
     TextView second_button;
 
-    @BindView(R.id.third_button)
     TextView third_button;
 
-    @BindView(R.id.first_edit_text)
     EditText first_edit_text;
 
-    @BindView(R.id.second_edit_text)
     EditText second_edit_text;
 
     TextView confirm;
-    Unbinder unbinder;
-   
+
     public FlatDialog(Context context) {
         super(context);
         this.context = context;
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.custom_dialog);
-        unbinder = ButterKnife.bind(this);
+        title=findViewById(R.id.title);
+        subtitle=findViewById(R.id.subtitle);
+        first_button=findViewById(R.id.first_button);
+        second_button=findViewById(R.id.second_button);
+        third_button=findViewById(R.id.third_button);
+        first_edit_text=findViewById(R.id.first_edit_text);
+        second_edit_text=findViewById(R.id.second_edit_text);
         this.getWindow().setBackgroundDrawableResource(android.R.color.white);
         this.setCancelable(false);
 
 
     }
 
-    public void setCancelable(boolean cancelable){
+    public FlatDialog isCancelable(boolean cancelable){
         this.setCancelable(cancelable);
+        return this;
     }
 
-    public void setTitle(String firstText) {
+    public FlatDialog setTitle(String firstText) {
         title.setText(firstText);
+        return this;
     }
 
-    public void isHasTitle(boolean hasTitle){
+    public FlatDialog isHasTitle(boolean hasTitle){
         if (hasTitle) {
             title.setVisibility(View.VISIBLE);
         } else {
             title.setVisibility(View.GONE);
         }
+        return this;
     }
 
-    public void setSubtitle(String secondText) {
+    public FlatDialog setSubtitle(String secondText) {
         subtitle.setText(secondText);
+        return this;
     }
 
     public void isHasSubtitle(boolean hasSubtitle){
