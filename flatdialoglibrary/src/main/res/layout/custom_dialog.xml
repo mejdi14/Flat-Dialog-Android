@@ -1,18 +1,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_frame"
     android:layout_width="350dp"
     android:layout_height="wrap_content"
     android:background="@drawable/dialog_shape"
     android:orientation="vertical"
     android:padding="20dp">
-
+<ImageView
+    android:id="@+id/icon"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:src="@drawable/cancel"
+    android:layout_marginBottom="8dp"
+    android:layout_gravity="center"
+    android:visibility="gone"/>
 
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="title"
+        android:visibility="gone"
         android:textStyle="bold"
         android:textColor="@color/white"
         android:textSize="24dp"
@@ -24,6 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="subtitle"
+        android:visibility="gone"
         android:textColor="#998FA2"/>
 
     <EditText
@@ -35,6 +43,7 @@
         android:layout_marginRight="28dp"
         android:background="@drawable/edit_text_background"
         android:hint="text"
+        android:visibility="gone"
         android:inputType="text"
         android:paddingBottom="14dp"
         android:paddingLeft="20dp"
@@ -52,6 +61,28 @@
         android:layout_gravity="center"
         android:layout_marginLeft="28dp"
         android:layout_marginRight="28dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="text"
+        android:visibility="gone"
+        android:inputType="text"
+        android:paddingBottom="14dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="14dp"
+        android:textColor="@color/white"
+        android:textColorHint="#ffffff"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16.5dp" />
+
+    <EditText
+        android:id="@+id/large_edit_text"
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:gravity="top"
+        android:visibility="gone"
         android:background="@drawable/edit_text_background"
         android:hint="text"
         android:inputType="text"
@@ -79,6 +110,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:textColor="@color/white"
+        android:visibility="gone"
         android:background="@drawable/first_button_background"/>
 
     <TextView
@@ -94,6 +126,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:textColor="@color/white"
+        android:visibility="gone"
         android:background="@drawable/second_button_background"/>
     <TextView
         android:id="@+id/third_button"
@@ -108,6 +141,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="25dp"
         android:textColor="@color/white"
+        android:visibility="gone"
         android:background="@drawable/third_button_background"/>
 
 </LinearLayout>
