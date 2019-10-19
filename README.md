@@ -71,6 +71,10 @@ dependencies {
     <td>setIcon(image)</td>
     <td>Add an image at the top of the dialog</td>
   </tr>
+	  <tr>
+    <td>setBackgroundColor(color)</td>
+    <td>Change the dialog background color</td>
+  </tr>
   <tr>
     <td>setFirstTextFieldHint(String)</td>
     <td>Set a hint for the edittext</td>
