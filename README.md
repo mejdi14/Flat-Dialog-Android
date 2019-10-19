@@ -92,3 +92,7 @@ dependencies {
     <td>Set the button background color</td>
   </tr>
 </table>
+
+## Contributing
+
+Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
