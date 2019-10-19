@@ -27,4 +27,4 @@ dependencies {
 	implementation 'com.github.mejdi14:Flat-Dialog-Android:1.0.3'
 }
 ```
-<img src="https://github.com/mejdi14/Flat-Dialog-Android/edit/master/screenshots/image1.jpg" height="420" width="240" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/edit/master/screenshots/image1.jpg" height="420" width="240" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/edit/master/screenshots/image1.jpg" height="420" width="240">
+<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image1.jpg" height="420" width="240" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/edit/master/screenshots/image1.jpg" height="420" width="240" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/edit/master/screenshots/image1.jpg" height="420" width="240">
