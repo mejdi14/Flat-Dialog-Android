@@ -57,7 +57,7 @@ dependencies {
                 .show();
 ```
 
-##More useful methods
+## More useful methods
 <table>
   <tr>
     <th>Method</th>
@@ -82,5 +82,13 @@ dependencies {
   <tr>
     <td>setFirstTextFieldBorderColor(color)</td>
     <td>Set the border color for the edittext</td>
+  </tr>
+	 <tr>
+    <td>setFirstTextFieldInputType(type)</td>
+    <td>Set the input type for the edittext</td>
+  </tr>
+		 <tr>
+    <td>setFirstButtonColor(color)</td>
+    <td>Set the button background color</td>
   </tr>
 </table>
