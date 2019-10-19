@@ -27,5 +27,60 @@ dependencies {
 	implementation 'com.github.mejdi14:Flat-Dialog-Android:1.0.3'
 }
 ```
+
+## Screenshots
 <img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image1.jpg" height="420" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image2.jpg" height="420" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image3.jpg" height="420" width="260">
 <img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image4.jpg" height="420" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image5.jpg" height="420" width="260" hspace="20">
+
+## How to use
+
+``` java
+ final FlatDialog flatDialog = new FlatDialog(ExempleActivity.this);
+        flatDialog.setTitle("Login")
+                .setSubtitle("write your profile info here")
+                .setFirstTextFieldHint("email")
+                .setSecondTextFieldHint("password")
+                .setFirstButtonText("CONNECT")
+                .setSecondButtonText("CANCEL")
+                .withFirstButtonListner(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Toast.makeText(ExempleActivity.this, flatDialog.getFirstTextField(), Toast.LENGTH_SHORT).show();
+                    }
+                })
+                .withSecondButtonListner(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        flatDialog.dismiss();
+                    }
+                })
+                .show();
+```
+
+##More useful methods
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>isCancelable(boolean)</td>
+    <tdDefine if you want to close dialog when you click outside</td>
+  </tr>
+  <tr>
+    <td>setIcon(image)</td>
+    <td>Add an image at the top of the dialog</td>
+  </tr>
+  <tr>
+    <td>setFirstTextFieldHint(String)</td>
+    <td>Set a hint for the edittext</td>
+  </tr>
+  <tr>
+    <td>setFirstTextFieldTextColor(color)</td>
+    <td>Set the edittext text color<br></td>
+  </tr>
+  <tr>
+    <td>setFirstTextFieldBorderColor(color)</td>
+    <td>Set the border color for the edittext</td>
+  </tr>
+</table>
