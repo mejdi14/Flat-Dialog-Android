@@ -28,6 +28,7 @@ public class ExempleActivity extends AppCompatActivity {
         largeDialog = findViewById(R.id.large_dialog);
         iconDialog = findViewById(R.id.icon_dialog);
         optionDialog = findViewById(R.id.option_dialog);
+//hello aymen
 
 
         loginDialog.setOnClickListener(new View.OnClickListener() {
