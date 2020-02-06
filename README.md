@@ -32,8 +32,8 @@ dependencies {
 ```
 
 ## Screenshots
-<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image1.jpg" height="420" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image2.jpg" height="420" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image3.jpg" height="420" width="260">
-<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image4.jpg" height="420" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image5.jpg" height="420" width="260" hspace="20">
+<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image1.jpg" height="620" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image2.jpg" height="620" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image3.jpg" height="620" width="260">
+<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image4.jpg" height="620" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image5.jpg" height="620" width="260" hspace="20">
 
 ## How to use
 
