@@ -5,7 +5,7 @@
 [![](https://jitpack.io/v/mejdi14/Flat-Dialog-Android.svg)](https://jitpack.io/#mejdi14/Flat-Dialog-Android)
 
 <p align="center">
-<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/flatdialog.png" height="250" width="200" >
+<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/flatdialog.png" height="220" width="170" >
 	</p>
 
 ## Installation
