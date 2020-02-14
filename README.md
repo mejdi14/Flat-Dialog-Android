@@ -73,11 +73,8 @@ dependencies {
             .withFirstButtonListner {
                  // do something ...
                 }
-
             .withSecondButtonListner {
-
                     flatDialog.dismiss()
-
             }
             .show()
 ```
