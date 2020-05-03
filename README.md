@@ -1,5 +1,7 @@
 # Flat-Dialog
-
+ <a href="https://github.com/frinyvonnick/gitmoji-changelog">
+    <img src="https://img.shields.io/badge/API-15%2B-blue.svg?style=flat" alt="gitmoji-changelog">
+  </a>
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![](https://jitpack.io/v/mejdi14/Flat-Dialog-Android.svg)](https://jitpack.io/#mejdi14/Flat-Dialog-Android)
@@ -27,7 +29,7 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 ```gradle
 dependencies {
 	...
-	implementation 'com.github.mejdi14:Flat-Dialog-Android:1.0.4'
+	implementation 'com.github.mejdi14:Flat-Dialog-Android:1.0.5'
 }
 ```
 
