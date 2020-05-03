@@ -5,7 +5,7 @@
 [![](https://jitpack.io/v/mejdi14/Flat-Dialog-Android.svg)](https://jitpack.io/#mejdi14/Flat-Dialog-Android)
 
 <p align="center">
-<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/dialogic.png" height="250" width="300" >
+<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/flatdialog.png" height="300" width="300" >
 	</p>
 
 ## Installation
@@ -19,7 +19,7 @@ allprojects {
 		maven { url "https://jitpack.io" }
 	}
 }
-```
+``` 
 ## Dependency
 
 Add this to your module's `build.gradle` file (make sure the version matches the JitPack badge above):
@@ -32,10 +32,10 @@ dependencies {
 ```
 
 ## Screenshots
-<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image1.jpg" height="420" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image2.jpg" height="420" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image3.jpg" height="420" width="260">
-<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image4.jpg" height="420" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image5.jpg" height="420" width="260" hspace="20">
+<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image1.jpg" height="580" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image2.jpg" height="580" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image3.jpg" height="580" width="260">
+<img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image4.jpg" height="580" width="260" hspace="20"><img src="https://github.com/mejdi14/Flat-Dialog-Android/blob/master/screenshots/image5.jpg" height="580" width="260" hspace="20">
 
-## How to use
+## How to use with java
 
 ``` java
  final FlatDialog flatDialog = new FlatDialog(ExempleActivity.this);
@@ -58,6 +58,25 @@ dependencies {
                     }
                 })
                 .show();
+```
+
+## How to use with kotlin
+
+``` java
+   val flatDialog = FlatDialog(this@MainActivity)
+        flatDialog.setTitle("Login")
+            .setSubtitle("write your profile info here")
+            .setFirstTextFieldHint("email")
+            .setSecondTextFieldHint("password")
+            .setFirstButtonText("CONNECT")
+            .setSecondButtonText("CANCEL")
+            .withFirstButtonListner {
+                 // do something ...
+                }
+            .withSecondButtonListner {
+                    flatDialog.dismiss()
+            }
+            .show()
 ```
 
 ## More useful methods
