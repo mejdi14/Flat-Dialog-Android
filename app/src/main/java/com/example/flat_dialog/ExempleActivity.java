@@ -195,6 +195,7 @@ public class ExempleActivity extends AppCompatActivity {
                 .setSubtitle("write your profile info here")
                 .setFirstTextFieldHint("email")
                 .setSecondTextFieldHint("password")
+                .setSecondTextFieldInputType(0, true)
                 .setFirstButtonText("CONNECT")
                 .setSecondButtonText("CANCEL")
                 .withFirstButtonListner(new View.OnClickListener() {

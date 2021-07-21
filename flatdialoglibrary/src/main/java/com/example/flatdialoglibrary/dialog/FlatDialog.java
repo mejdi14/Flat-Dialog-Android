@@ -7,6 +7,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.ShapeDrawable;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.view.Window;
 import android.widget.EditText;
@@ -252,20 +253,29 @@ public class FlatDialog extends Dialog {
     }
 
 
-    public FlatDialog setFirstTextFieldInputType(int type) {
+    public FlatDialog setFirstTextFieldInputType(int type, boolean passwordToggle) {
         first_edit_text.setVisibility(View.VISIBLE);
-        first_edit_text.setInputType(type);
+        if (passwordToggle)
+            first_edit_text.setTransformationMethod(PasswordTransformationMethod.getInstance());
+        else
+            first_edit_text.setInputType(type);
         return this;
     }
-    public FlatDialog setSecondTextFieldInputType(int type) {
+    public FlatDialog setSecondTextFieldInputType(int type, boolean passwordToggle) {
         second_edit_text.setVisibility(View.VISIBLE);
-        second_edit_text.setInputType(type);
+        if (passwordToggle)
+            second_edit_text.setTransformationMethod(PasswordTransformationMethod.getInstance());
+        else
+            second_edit_text.setInputType(type);
         return this;
     }
 
-    public FlatDialog setLargeTextFieldInputType(int type) {
-        second_edit_text.setVisibility(View.VISIBLE);
-        second_edit_text.setInputType(type);
+    public FlatDialog setLargeTextFieldInputType(int type, boolean passwordToggle) {
+        large_edit_text.setVisibility(View.VISIBLE);
+        if (passwordToggle)
+            large_edit_text.setTransformationMethod(PasswordTransformationMethod.getInstance());
+        else
+            large_edit_text.setInputType(type);
         return this;
     }
 
