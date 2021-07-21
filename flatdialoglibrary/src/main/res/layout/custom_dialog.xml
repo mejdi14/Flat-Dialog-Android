@@ -22,7 +22,7 @@
         android:visibility="gone"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:layout_marginBottom="8dp"/>
 
     <TextView
@@ -52,7 +52,7 @@
         android:textColorHint="#ffffff"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="10dp"
-        android:textSize="16.5dp" />
+        android:textSize="16.5sp" />
 
     <EditText
         android:id="@+id/second_edit_text"
@@ -72,7 +72,7 @@
         android:textColorHint="#ffffff"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="10dp"
-        android:textSize="16.5dp" />
+        android:textSize="16.5sp" />
 
     <EditText
         android:id="@+id/large_edit_text"
@@ -93,9 +93,7 @@
         android:textColorHint="#ffffff"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="10dp"
-        android:textSize="16.5dp" />
-
-
+        android:textSize="16.5sp" />
 
     <TextView
         android:id="@+id/first_button"
@@ -105,7 +103,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:padding="17dp"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
@@ -121,7 +119,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:padding="17dp"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
@@ -136,7 +134,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:padding="17dp"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="25dp"
