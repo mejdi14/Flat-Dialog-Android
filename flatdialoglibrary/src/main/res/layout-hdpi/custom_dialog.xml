@@ -86,7 +86,7 @@
         android:background="@drawable/edit_text_background"
         android:gravity="top"
         android:hint="text"
-        android:inputType="text"
+        android:inputType="textMultiLine"
         android:paddingLeft="20dp"
         android:paddingTop="14dp"
         android:paddingBottom="14dp"

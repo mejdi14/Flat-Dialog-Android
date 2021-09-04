@@ -85,7 +85,7 @@
         android:visibility="gone"
         android:background="@drawable/edit_text_background"
         android:hint="text"
-        android:inputType="text"
+        android:inputType="textMultiLine"
         android:paddingBottom="14dp"
         android:paddingLeft="20dp"
         android:paddingTop="14dp"
