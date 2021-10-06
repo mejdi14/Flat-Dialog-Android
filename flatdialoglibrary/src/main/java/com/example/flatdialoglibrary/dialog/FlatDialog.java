@@ -19,6 +19,11 @@ import com.example.flatdialoglibrary.R;
 
 
 public class FlatDialog extends Dialog {
+    private static final String WHITE ="#FFFFFF" ;
+    private static final String PURPLE ="#8A56AC" ;
+    private static final String LIGHT_PURPLE ="#D47FA6" ;
+    private static final String GREY_PURPLE ="#998FA2" ;
+    private static final String DARK_PURPLE ="#241332" ;
     private Context context;
 
     private TextView title;
@@ -66,15 +71,15 @@ public class FlatDialog extends Dialog {
     }
 
     private void initDefaultCase() {
-        setLargeTextFieldBorderColor(Color.parseColor("#FFFFFF"));
-        setFirstTextFieldBorderColor(Color.parseColor("#FFFFFF"));
-        setSecondTextFieldBorderColor(Color.parseColor("#FFFFFF"));
-        setTitleColor(Color.parseColor("#FFFFFF"));
-        setSubtitleColor(Color.parseColor("#FFFFFF"));
-        setFirstButtonColor(Color.parseColor("#8A56AC"));
-        setSecondButtonColor(Color.parseColor("#D47FA6"));
-        setThirdButtonColor(Color.parseColor("#998FA2"));
-        setBackgroundColor(Color.parseColor("#241332"));
+        setLargeTextFieldBorderColor(Color.parseColor(WHITE));
+        setFirstTextFieldBorderColor(Color.parseColor(WHITE));
+        setSecondTextFieldBorderColor(Color.parseColor(WHITE));
+        setTitleColor(Color.parseColor(WHITE));
+        setSubtitleColor(Color.parseColor(WHITE));
+        setFirstButtonColor(Color.parseColor(PURPLE));
+        setSecondButtonColor(Color.parseColor(LIGHT_PURPLE));
+        setThirdButtonColor(Color.parseColor(GREY_PURPLE));
+        setBackgroundColor(Color.parseColor(DARK_PURPLE));
         first_edit_text.setVisibility(View.GONE);
         second_edit_text.setVisibility(View.GONE);
         large_edit_text.setVisibility(View.GONE);
