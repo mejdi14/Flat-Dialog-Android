@@ -17,7 +17,12 @@ public class ExempleActivity extends AppCompatActivity {
     Button largeDialog;
     Button iconDialog;
     Button optionDialog;
-
+    private static final String WHITE ="#FFFFFF" ;
+    private static final String BLACK ="#FFFFFF" ;
+    private static final String PURPLE ="#8A56AC" ;
+    private static final String LIGHT_PURPLE ="#D47FA6" ;
+    private static final String GREY_PURPLE ="#998FA2" ;
+    private static final String DARK_PURPLE ="#241332" ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,16 +77,16 @@ public class ExempleActivity extends AppCompatActivity {
     private void showOptionDialog() {
         final FlatDialog flatDialog = new FlatDialog(ExempleActivity.this);
         flatDialog.setTitle("Option dialog")
-                .setTitleColor(Color.parseColor("#000000"))
+                .setTitleColor(Color.parseColor(BLACK))
                 .setBackgroundColor(Color.parseColor("#f9fce1"))
                 .setFirstButtonColor(Color.parseColor("#d3f6f3"))
-                .setFirstButtonTextColor(Color.parseColor("#000000"))
+                .setFirstButtonTextColor(Color.parseColor(BLACK))
                 .setFirstButtonText("ADD")
                 .setSecondButtonColor(Color.parseColor("#fee9b2"))
-                .setSecondButtonTextColor(Color.parseColor("#000000"))
+                .setSecondButtonTextColor(Color.parseColor(BLACK))
                 .setSecondButtonText("UPDATE")
                 .setThirdButtonColor(Color.parseColor("#fbd1b7"))
-                .setThirdButtonTextColor(Color.parseColor("#000000"))
+                .setThirdButtonTextColor(Color.parseColor(BLACK))
                 .setThirdButtonText("DELETE")
                 .withFirstButtonListner(new View.OnClickListener() {
                     @Override

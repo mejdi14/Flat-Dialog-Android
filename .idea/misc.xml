@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/Flat-Dialog-Android/flatdialoglibrary/src/main/res/drawable/cancel.xml" value="0.14635416666666667" />
+        <entry key="..\:/Projects/Flat-Dialog-Android/flatdialoglibrary/src/main/res/drawable/edit_text_background.xml" value="0.14270833333333333" />
+        <entry key="..\:/Projects/Flat-Dialog-Android/flatdialoglibrary/src/main/res/layout/custom_dialog.xml" value="0.28454332552693207" />
       </map>
     </option>
   </component>
