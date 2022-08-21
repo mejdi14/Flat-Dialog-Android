@@ -91,7 +91,7 @@ dependencies {
   </tr>
   <tr>
     <td>isCancelable(boolean)</td>
-    <tdDefine if you want to close dialog when you click outside</td>
+    <td>Define if you want to close dialog when you click outside</td>
   </tr>
   <tr>
     <td>setIcon(image)</td>
